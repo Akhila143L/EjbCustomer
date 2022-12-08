@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+h1{
+	display: block;
+	font-size:30px;
+	margin-top:10px;
+	margin-left: 40px;
+	margin-right:10px;
+	font-weight: bold;
+	text-color:black;
+}
+body{
+	background:url("images/inventory.jpg");
+	padding:10px 20px;
+	background-size:cover;
+	min-height:100%;
+	font-size:18px;
+	display:flex;
+	flex-flow:column;
+	align-items:center;
+}
+form{
+	box-sizing:border-box;
+	padding: 40 50;
+	background-color: #FFE7E9;
+	border:4px solid #FFC0CB;
+	display:grid;
+	margin : 5px 5px 10px 5px;
+	font-size:15px;
+	font-weight:bold;	
+}
+label{
+	display:block;
+}
